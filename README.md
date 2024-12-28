@@ -1,17 +1,6 @@
-# CS 307 - Programming Assignment 3: Synchronization Sightseeing
+# Synchronization Sightseeing
 
 This project, completed as part of Sabancı University's Operating Systems (CS 307) course, implements a multi-threaded simulation of managing a tourist attraction using semaphores. Visitors and guides are represented as threads, and their synchronization is achieved using semaphore primitives.
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Problem Description](#problem-description)
-- [Tour Class](#tour-class)
-  - [Constructor](#constructor)
-  - [Methods](#methods)
-- [Implementation](#implementation)
-- [How to Compile and Run](#how-to-compile-and-run)
-- [Sample Outputs](#sample-outputs)
-- [Resources](#resources)
 
 ## Introduction
 This project simulates a tourist attraction where visitors can tour the site under strict synchronization constraints. The simulation ensures that:
@@ -27,8 +16,6 @@ The task involves implementing the **Tour** class in `C++` to manage the synchro
 - Tours require a fixed number of participants, and no more visitors are allowed until the ongoing tour ends.
 - A guide is optional and is included as part of the visitor count.
 - When a tour ends, threads execute specific behaviors depending on their roles.
-
-For detailed problem requirements, refer to the [assignment documentation](#).
 
 ## Tour Class
 ### Constructor
